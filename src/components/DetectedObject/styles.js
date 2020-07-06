@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Wrapp = styled.div`
   display: flex;
   flex-direction: column;
-  overflow-x: scroll;
+  overflow: auto;
 
   &&::-webkit-scrollbar,
   ::-webkit-scrollbar-button,

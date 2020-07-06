@@ -21,21 +21,18 @@ export const Nav = styled.nav`
     margin-top: 60px;
 
     .active {
+      display: block;
       background: #6C63FF;
       padding: 15px;
       border-bottom-left-radius: 60px;
       border-top-left-radius: 60px;
+    }
 
-      && {
-        fill: #f00;
-      }
+    .activeColor {
+      color: #22D1EE;
     }
     
     li {
       margin: 20px 0;
-
-      
-      
     }
-  }
 `;

@@ -25,7 +25,7 @@ function PostAnalysis() {
             </button>
           </div>
 
-          <div>
+          <div className="overflow">
             <DetectedObject/>
           </div>
         </FileContent>

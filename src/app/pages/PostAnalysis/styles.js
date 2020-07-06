@@ -6,7 +6,6 @@ export const Container = styled.div`
   justify-content: center;
   padding: 100px;
   margin-left: 80px;
-
 `;
 
 export const FileContent = styled.div`
@@ -22,16 +21,20 @@ export const FileContent = styled.div`
     justify-content: center;
     align-items: center;
   }
-  
+
+  .overflow {
+    overflow: auto;
+  }
+
   div {
     display: flex;
     width: 100%;
-    height: 500px;
+    height: 400px;
     background: #0E153A;
     margin: 0 10px;
     border-radius: 25px;
     padding: 20px;
-
+    
     img {
       width: 100%;
       height: 100%;
@@ -68,8 +71,6 @@ export const FileContent = styled.div`
     flex-direction: column;
   }
 `;
-
-export const Objects = styled.div``;
 
 export const FileDetail = styled.div`
   display: flex;
